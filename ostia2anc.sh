@@ -20,6 +20,7 @@ while [ "$d" != 2010-03-01 ]; do
     xancil -x -j temp_xancil.job
 
     # run xancil for seaice
+    # to do
 
     # next day
     d=$(date -I -d "$d + 1 day")
