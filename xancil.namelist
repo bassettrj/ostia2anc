@@ -6,7 +6,7 @@
   LBIGENDOUT = .TRUE.,
   LWFIO = .FALSE.,
   NNCFILES = 1
-  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100102_sst.nc"
+  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100104_sst.nc"
  /
 
  &nam_gridconfig
@@ -59,9 +59,9 @@
 
  &nam_sst
   LSST = .TRUE.,
-  SST_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100102_sst.nc",
+  SST_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100104_sst.nc",
   SST_NCNAME = "temperature",
-  SST_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/20100102_ostia_sst.anc",
+  SST_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/20100104_ostia_sst.anc",
   LSST_MIN = .TRUE.,
   ASST_MIN = 271.4,
   LSST_ICEVAL = .FALSE.,
