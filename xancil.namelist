@@ -1,0 +1,126 @@
+ &nam_config
+  ICAL = 1,
+  ISIZE = 64,
+  L32BIT = .FALSE.,
+  VERSION = 13,
+  LBIGENDOUT = .TRUE.,
+  LWFIO = .FALSE.,
+  NNCFILES = 1
+  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100102_sst.nc"
+ /
+
+ &nam_gridconfig
+  IAGRID = 2,
+  LVARGRID = .FALSE.,
+  IAVERT = 0,
+  IOVERT = 0,
+  IPVERT = 1,
+  NPLEV = 9,
+  PSEUDOLEV(1) = 1,
+  PSEUDOLEV(2) = 2,
+  PSEUDOLEV(3) = 3,
+  PSEUDOLEV(4) = 4,
+  PSEUDOLEV(5) = 5,
+  PSEUDOLEV(6) = 6,
+  PSEUDOLEV(7) = 7,
+  PSEUDOLEV(8) = 8,
+  PSEUDOLEV(9) = 9,
+  LDEEPSOIL = .TRUE.,
+  NSOILLEV = 4,
+  SOILLEV(1) = 0.1,
+  SOILLEV(2) = 0.25,
+  SOILLEV(3) = 0.65,
+  SOILLEV(4) = 2.0
+ /
+
+ &nam_ozone
+ /
+
+ &nam_smow
+ /
+
+ &nam_slt
+ /
+
+ &nam_soil
+ /
+
+ &nam_veg
+ /
+
+ &nam_vegfrac
+ /
+
+ &nam_vegfunc
+ /
+
+ &nam_vegdist
+ /
+
+ &nam_sst
+  LSST = .TRUE.,
+  SST_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100102_sst.nc",
+  SST_NCNAME = "temperature",
+  SST_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/20100102_ostia_sst.anc",
+  LSST_MIN = .TRUE.,
+  ASST_MIN = 271.4,
+  LSST_ICEVAL = .FALSE.,
+  LSST_PERIODIC = .TRUE.,
+  LSST_CAL_INDEP = .FALSE.,
+  ISST_MASK = 0,
+  ISST_TIMEUSAGE1 = 0,
+  ISST_TIMEUSAGE2 = 0,
+  ISST_STARTDATE(1) = 0000,
+  ISST_STARTDATE(2) = 1,
+  ISST_STARTDATE(3) = 16,
+  ISST_STARTDATE(4) = 0,
+  ISST_STARTDATE(5) = 0,
+  ISST_STARTDATE(6) = 0,
+  ISST_NTIMES = 12,
+  ISST_INTERVAL = 1,
+  ISST_INTUNIT = 1,
+  LSST_MM = .TRUE.
+ /
+
+ &nam_ice
+ /
+
+ &nam_orog
+ /
+
+ &nam_mask
+ /
+
+ &nam_lfrac
+ /
+
+ &nam_ausrmulti
+ /
+
+ &nam_ausrancil
+ /
+
+ &nam_ts1
+ /
+
+ &nam_flux
+ /
+
+ &nam_ousrmulti
+ /
+
+ &nam_ousrancil
+ /
+
+ &nam_genanc_config
+  NANCFILES = 1
+ /
+
+ &nam_genanc
+  LGENANC_FILE(1) = .FALSE.,
+
+ /
+
+ &nam_astart
+ /
+
