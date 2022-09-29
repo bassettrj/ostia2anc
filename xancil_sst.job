@@ -6,7 +6,7 @@
 set config(cal) 1
 set config(create) 1
 set config(end) 1
-set config(ncfile) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100101_sst.nc
+set config(ncfile) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20100101_sst.nc
 set config(pack32) 0
 set config(size) 64
 set config(smfile) ""
@@ -66,8 +66,8 @@ set gridconfig(zero) 0
 
 set ozone(calindep) 0
 set ozone(create) 0
-set ozone(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ozone.nc
-set ozone(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ozone
+set ozone(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ozone.nc
+set ozone(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ozone
 set ozone(interval) 1
 set ozone(intunit) 1
 set ozone(mixfac) 1.0
@@ -91,8 +91,8 @@ set ozone(useglobtime) 1
 set smow(calcsnowedge) 1
 set smow(calindep) 0
 set smow(create) 0
-set smow(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/smow.nc
-set smow(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/smow
+set smow(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/smow.nc
+set smow(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/smow
 set smow(interval) 1
 set smow(intunit) 1
 set smow(mask) 0
@@ -116,8 +116,8 @@ set smow(useglobtime) 1
 
 set slt(calindep) 0
 set slt(create) 0
-set slt(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/slt.nc
-set slt(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/slt
+set slt(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/slt.nc
+set slt(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/slt
 set slt(interval) 1
 set slt(intunit) 1
 set slt(mask) 0
@@ -140,8 +140,8 @@ set slt(useglobtime) 1
 set soil(calindep) 1
 set soil(clapphornname) ""
 set soil(create) 0
-set soil(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/soil.nc
-set soil(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/soil
+set soil(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/soil.nc
+set soil(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/soil
 set soil(mask) 0
 set soil(soilalbname) ""
 set soil(soilcarbname) ""
@@ -161,8 +161,8 @@ set veg(cancapname) ""
 set veg(canhtname) ""
 set veg(create) 0
 set veg(dsaname) ""
-set veg(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/veg.nc
-set veg(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/veg
+set veg(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/veg.nc
+set veg(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/veg
 set veg(infiltname) ""
 set veg(lainame) ""
 set veg(mask) 0
@@ -176,8 +176,8 @@ set veg(z0name) ""
 
 set vegfrac(calindep) 1
 set vegfrac(create) 0
-set vegfrac(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/vegfrac.nc
-set vegfrac(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/vegfrac
+set vegfrac(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/vegfrac.nc
+set vegfrac(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/vegfrac
 set vegfrac(mask) 0
 set vegfrac(name) ""
 set vegfrac(surftypes) 9
@@ -188,8 +188,8 @@ set vegfunc(calindep) 0
 set vegfunc(cancondname) ""
 set vegfunc(canhtname) ""
 set vegfunc(create) 0
-set vegfunc(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/vegfunc.nc
-set vegfunc(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/vegfunc
+set vegfunc(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/vegfunc.nc
+set vegfunc(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/vegfunc
 set vegfunc(functypes) 5
 set vegfunc(interval) 1
 set vegfunc(intunit) 1
@@ -212,8 +212,8 @@ set vegfunc(useglobtime) 1
 
 set vegdist(calindep) 1
 set vegdist(create) 0
-set vegdist(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/vegdist.nc
-set vegdist(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/vegdist
+set vegdist(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/vegdist.nc
+set vegdist(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/vegdist
 set vegdist(mask) 0
 set vegdist(name) ""
 
@@ -221,8 +221,8 @@ set vegdist(name) ""
 
 set sst(calindep) 0
 set sst(create) 1
-set sst(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100101_sst.nc
-set sst(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/20100101_ostia_sst.anc
+set sst(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20100101_sst.nc
+set sst(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/20100101_ostia_sst.anc
 set sst(iceval) 271.35
 set sst(interval) 1
 set sst(intunit) 1
@@ -255,8 +255,8 @@ set ice(create) 0
 set ice(cutoffval) 0.5
 set ice(depthname) ""
 set ice(edgename) ""
-set ice(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ice.nc
-set ice(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ice
+set ice(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ice.nc
+set ice(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ice
 set ice(interval) 1
 set ice(intunit) 1
 set ice(mask) 0
@@ -285,8 +285,8 @@ set ice(usesstval) 1
 
 set orog(calindep) 1
 set orog(create) 0
-set orog(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/orog.nc
-set orog(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/orog
+set orog(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/orog.nc
+set orog(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/orog
 set orog(incgrad) 0
 set orog(incrough) 1
 set orog(incsqgrad) 1
@@ -307,8 +307,8 @@ set orog(yygradname) ""
 
 set mask(calindep) 1
 set mask(create) 0
-set mask(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/mask.nc
-set mask(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/mask
+set mask(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/mask.nc
+set mask(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/mask
 set mask(name) ""
 set mask(ofname) ""
 set mask(outflow) 0
@@ -322,8 +322,8 @@ set mask(val) 1
 
 set lfrac(calindep) 1
 set lfrac(create) 0
-set lfrac(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/lfrac.nc
-set lfrac(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/lfrac
+set lfrac(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/lfrac.nc
+set lfrac(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/lfrac
 set lfrac(name) ""
 set lfrac(use) 0
 
@@ -343,7 +343,7 @@ set ausrmulti(1,theta) 1
 set ausrmulti(1,varname) ""
 set ausrmulti(calindep) 0
 set ausrmulti(create) 0
-set ausrmulti(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ausrmulti
+set ausrmulti(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ausrmulti
 set ausrmulti(interval) 1
 set ausrmulti(intunit) 1
 set ausrmulti(mm) 1
@@ -377,7 +377,7 @@ set ausrancil(1,theta) 1
 set ausrancil(1,varname) ""
 set ausrancil(calindep) 0
 set ausrancil(create) 0
-set ausrancil(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ausrancil
+set ausrancil(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ausrancil
 set ausrancil(interval) 1
 set ausrancil(intunit) 1
 set ausrancil(mm) 1
@@ -401,8 +401,8 @@ set ts1(atname) ""
 set ts1(climat) 0
 set ts1(climid) 0
 set ts1(create) 0
-set ts1(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/sss_sst.nc
-set ts1(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/sss_sst
+set ts1(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/sss_sst.nc
+set ts1(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/sss_sst
 set ts1(idname) ""
 set ts1(interval) 1
 set ts1(intunit) 1
@@ -427,8 +427,8 @@ set ts1(useglobtime) 1
 # flux variables
 
 set flux(create) 0
-set flux(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/fluxc.nc
-set flux(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/fluxc
+set flux(file_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/fluxc.nc
+set flux(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/fluxc
 set flux(heat) 1
 set flux(heatname) ""
 set flux(interval) 1
@@ -464,7 +464,7 @@ set ousrmulti(1,stashcode) ""
 set ousrmulti(1,theta) 1
 set ousrmulti(1,varname) ""
 set ousrmulti(create) 0
-set ousrmulti(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ousrmulti
+set ousrmulti(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ousrmulti
 set ousrmulti(interval) 1
 set ousrmulti(intunit) 1
 set ousrmulti(mm) 1
@@ -497,7 +497,7 @@ set ousrancil(1,stashcode) ""
 set ousrancil(1,theta) 1
 set ousrancil(1,varname) ""
 set ousrancil(create) 0
-set ousrancil(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/ousrancil
+set ousrancil(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/ousrancil
 set ousrancil(interval) 1
 set ousrancil(intunit) 1
 set ousrancil(mm) 1
@@ -536,7 +536,7 @@ set genanc(1,1,theta) 1
 set genanc(1,1,varname) ""
 set genanc(1,calindep) 0
 set genanc(1,create) 0
-set genanc(1,file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/anc
+set genanc(1,file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/anc
 set genanc(1,interval) 1
 set genanc(1,inthd8) 0
 set genanc(1,inthd8val) 1
@@ -562,7 +562,7 @@ set genanc(create) 1
 set astart(addextra) 0
 set astart(create) 0
 set astart(day) 16
-set astart(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/newdump.astart
+set astart(file_out) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/newdump.astart
 set astart(hour) 0
 set astart(min) 0
 set astart(mon) 1
@@ -574,7 +574,7 @@ set astart(nncfile) 0
 set astart(sec) 0
 set astart(timeusage1) 0
 set astart(timeusage2) 0
-set astart(umfile_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/dump.astart
+set astart(umfile_in) /mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/dump.astart
 set astart(useconfig) 0
 set astart(useexist) 1
 set astart(usestdname) 1

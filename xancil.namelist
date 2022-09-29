@@ -5,8 +5,8 @@
   VERSION = 13,
   LBIGENDOUT = .TRUE.,
   LWFIO = .FALSE.,
-  NNCFILES = 1
-  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100104_sst.nc"
+  NNCFILES = 2
+  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst/20100228_seaice.nc","/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20100228_seaice.nc"
  /
 
  &nam_gridconfig
@@ -58,31 +58,34 @@
  /
 
  &nam_sst
-  LSST = .TRUE.,
-  SST_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/unpacked_20100104_sst.nc",
-  SST_NCNAME = "temperature",
-  SST_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_batch/20100104_ostia_sst.anc",
-  LSST_MIN = .TRUE.,
-  ASST_MIN = 271.4,
-  LSST_ICEVAL = .FALSE.,
-  LSST_PERIODIC = .TRUE.,
-  LSST_CAL_INDEP = .FALSE.,
-  ISST_MASK = 0,
-  ISST_TIMEUSAGE1 = 0,
-  ISST_TIMEUSAGE2 = 0,
-  ISST_STARTDATE(1) = 0000,
-  ISST_STARTDATE(2) = 1,
-  ISST_STARTDATE(3) = 16,
-  ISST_STARTDATE(4) = 0,
-  ISST_STARTDATE(5) = 0,
-  ISST_STARTDATE(6) = 0,
-  ISST_NTIMES = 12,
-  ISST_INTERVAL = 1,
-  ISST_INTUNIT = 1,
-  LSST_MM = .TRUE.
  /
 
  &nam_ice
+  LICE = .TRUE.,
+  ICE_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20100228_seaice.nc",
+  LICE_AMIP2 = .TRUE.,
+  LICE_SSTVAL = .FALSE.,
+  ICE_NCFRACNAME = "sea_ice_fraction",
+  LICE_PERCENT = .FALSE.,
+  LICE_MKMASK = .FALSE.,
+  ICE_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/20100228_ostia_seaice.anc",
+  LICE_MIN = .FALSE.,
+  LICE_MAX = .FALSE.,
+  LICE_PERIODIC = .TRUE.,
+  LICE_CAL_INDEP = .FALSE.,
+  IICE_MASK = 0,
+  IICE_TIMEUSAGE1 = 0,
+  IICE_TIMEUSAGE2 = 0,
+  IICE_STARTDATE(1) = 0000,
+  IICE_STARTDATE(2) = 1,
+  IICE_STARTDATE(3) = 16,
+  IICE_STARTDATE(4) = 0,
+  IICE_STARTDATE(5) = 0,
+  IICE_STARTDATE(6) = 0,
+  IICE_NTIMES = 12,
+  IICE_INTERVAL = 1,
+  IICE_INTUNIT = 1,
+  LICE_MM = .TRUE.
  /
 
  &nam_orog
