@@ -1,12 +1,13 @@
 # unpacks ostia SST files (scale and offset)
 # runs xancil to create ostia SST and seaice .anc files for UM
 
-d=2010-01-01
-d2=$(echo $d | sed 's/\-//g')
+d=2009-12-01
+#d2=$(echo $d | sed 's/\-//g')
+d2=20100101 # DO NOT CHANGE this is overwritten anyway below, just what it is set in xancil*.job
 
-while [ "$d" != 2010-03-01 ]; do 
+while [ "$d" != 2010-01-01 ]; do 
     d3=$(echo $d | sed 's/\-//g')
-
+    echo $d3
     # unpack sst
     in="../ostia_sst/"$d3"_sst.nc"
     out="unpacked_"$d3"_sst.nc"

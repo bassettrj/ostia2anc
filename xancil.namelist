@@ -6,7 +6,7 @@
   LBIGENDOUT = .TRUE.,
   LWFIO = .FALSE.,
   NNCFILES = 2
-  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst/20100228_seaice.nc","/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20100228_seaice.nc"
+  NCFILES = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst/20091231_seaice.nc","/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20091231_seaice.nc"
  /
 
  &nam_gridconfig
@@ -62,13 +62,13 @@
 
  &nam_ice
   LICE = .TRUE.,
-  ICE_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20100228_seaice.nc",
+  ICE_FILEIN = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/unpacked_20091231_seaice.nc",
   LICE_AMIP2 = .TRUE.,
   LICE_SSTVAL = .FALSE.,
   ICE_NCFRACNAME = "sea_ice_fraction",
   LICE_PERCENT = .FALSE.,
   LICE_MKMASK = .FALSE.,
-  ICE_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/20100228_ostia_seaice.anc",
+  ICE_FILEOUT = "/mnt/lustre/a2fs-work2/work/n02/n02/bassett/ostia_sst_anc/20091231_ostia_seaice.anc",
   LICE_MIN = .FALSE.,
   LICE_MAX = .FALSE.,
   LICE_PERIODIC = .TRUE.,
